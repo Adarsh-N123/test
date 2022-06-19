@@ -1,0 +1,304 @@
+
+.container{
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+}
+.navlist{
+    border-style: solid;
+    width: 99.5%;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 210, 78);
+    border-radius: 0.5rem;
+    z-index: -1;
+
+}
+
+#a, #b{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    
+}
+#c, #d, #e{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+}
+li a:hover {
+    opacity: 0.3;
+  }
+#search{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    border-width: medium;
+    border-style: solid;
+    background-color: rgb(12, 176, 53);
+    
+    height: 300px;
+    border-radius: 0.5rem;
+}
+#logo{
+    width: 14%;
+    height: 85%;
+    margin-top: -40px;
+    margin-left: 43%;
+    
+}
+#name{
+    margin-top: -50px;
+    width: 30%;
+    height: 30px;
+    margin-left:30%;
+    border-width: 3px;
+    border-style: solid;
+    
+}
+#btn{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(72, 69, 228);
+    cursor: pointer;
+    
+}
+#btn:hover{
+    opacity: 0.8;
+    
+}
+#studies,#novels{
+    text-align: center;
+    margin-top: 1%;
+    font-size: x-large;
+}
+#blocks1,#blocks2{
+    display: inline;
+    list-style-type: none;
+    float: left;
+    overflow: hidden;
+}
+#f{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+    border-width: 3px;
+    border-style: solid;
+    width: 20%;
+    margin-left: -1%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#g{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+    border-width: 3px;
+    border-style: solid;
+    width: 20%;
+    margin-left: 2.1%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#h{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:right;
+    border-width: 3px;
+    border-style: solid;
+    width: 20%;
+    margin-right: 3.7%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#i{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:right;
+    border-width: 3px;
+    border-style: solid;
+    width: 20%;
+    margin-right: 2.8%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#f:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#g:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#h:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#i:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#j{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+    border-width: 3px;
+    border-style: solid;
+    width: 15%;
+    margin-left: -1%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#k{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+    border-width: 3px;
+    border-style: solid;
+    width: 15%;
+    margin-left: 2.5%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#l{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+    border-width: 3px;
+    border-style: solid;
+    width: 15%;
+    margin-left: 2.5%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#m{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:right;
+    border-width: 3px;
+    border-style: solid;
+    width: 15%;
+    margin-right: 5.7%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#n{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8% 0.8%;
+    text-decoration: none;
+    cursor: pointer;
+    float:right;
+    border-width: 3px;
+    border-style: solid;
+    width: 15%;
+    margin-right: 2.5%;
+    border-radius: 1rem;
+    background-color: rgb(176, 246, 246);
+}
+#blocks3{
+    border-style: solid;
+    width: 99.5%;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(252, 248, 248, 0.63);
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+#j:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#k:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#l:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#m:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#n:hover{
+    transition: 1s;
+    background-color: antiquewhite;
+}
+#o,#p,#q{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 5%;
+}
+#o:hover{
+    opacity: 0.6;
+}
+#p:hover{
+    opacity: 0.6;
+}
+#q:hover{
+    opacity: 0.6;
+}
+#r{
+    display: block;
+    
+    text-decoration: none;
+    cursor: pointer;
+    
+    margin-top: 0%;
+    margin-left: 80%;
+}

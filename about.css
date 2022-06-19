@@ -1,0 +1,25 @@
+#box{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    border-width: medium;
+    border-style: solid;
+    background-color: white;
+    opacity: 0.5;    
+    height:50vh;
+    border-radius: 0.5rem;
+    border-width: 3px;
+    margin-top: 10vh;
+
+}
+#mission{
+    font-size: 4vw;
+    z-index: 1;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+#para{
+    font-size:4vw;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}

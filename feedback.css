@@ -1,0 +1,49 @@
+.radio{
+    display: none;
+}
+.radio~span{
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition:0.3s;
+}
+.radio:checked~span{
+    font-size: 4rem;
+    filter: grayscale(0);
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.container2{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    border-width: medium;
+    border-style: solid;
+    background-color: white;
+    opacity: 0.5;    
+    height:20vh;
+    width: 90%;
+    border-radius: 0.5rem;
+    border-width: 3px;
+    margin-top: 10vh;
+}
+#btn{
+      width: 10vw;
+      margin-top: 2%;
+      margin-left: 45%;
+      background-color: rgb(194, 243, 243);
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      border-color: black;
+      align-self: center;
+      justify-content: center;
+      font-size: 2vw;
+}
